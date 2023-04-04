@@ -10,5 +10,5 @@ if mediaNota >= 7.0 and frequencia >= 75:
     print("Vc esta Aprovado")
 elif mediaNota >= 4.0 and mediaNota < 7.0 and frequencia > 75:
     print("Vc entá em Exame")
-elif mediaNota < 4.0 or frequencia < 75:
+elif mediaNota < 4.0 or frequencia <= 75:
     print("Vc entá Reprovado")
