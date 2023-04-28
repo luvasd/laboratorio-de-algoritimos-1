@@ -18,6 +18,7 @@ while opc != 4:
             saldo -= retirada
         else:
             print("Saldo insuficiente!")
+            print("Saldo de:", saldo)
     elif opc == 3:
         print("Valor em caixa: ", saldo)
     elif opc == 4:
