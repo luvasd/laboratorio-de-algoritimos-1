@@ -30,7 +30,7 @@ def alterarHrsAusentes(hrsausentes, trabalhadas): #opc 3 do menu.
     return hrsausentes, trabalhadas
 
 
-def mostrar_salario(user, trabalhadas): #opc 4 do menu.
+def mostrar_salario(trabalhadas): #opc 4 do menu.
     user = int(input("Qual o seu código do funcionário?: "))
     salario = trabalhadas[user] * 50
     print("O seu salário é: ",salario)
@@ -117,7 +117,7 @@ def main():
         elif opcao == 6:
             mediaHrsTrabalhadas(trabalhadas)
         elif opcao == 7:
-            mediaHrsFaltantes(hrsausentes)
+  l          mediaHrsFaltantes(hrsausentes)
         elif opcao == 8:
             melhorFuncionario(trabalhadas)
         elif opcao == 9:
@@ -133,5 +133,9 @@ def main():
 
 
 main()
+
+
+
+
 
 
